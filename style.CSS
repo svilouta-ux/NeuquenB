@@ -1,0 +1,31 @@
+body {
+	background-color:lightblue;
+	color:darkblue;
+	  font-family: "Times New Roman";
+	  font-size:40;
+}
+
+nav{
+	background-color: #333;
+}
+ul{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+	padding: 0;
+}
+
+li{
+	margin: 0;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+li:hover{
+	transition: 250ms;
+	background-color: #000000;
+}
